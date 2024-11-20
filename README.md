@@ -50,7 +50,10 @@ This project demonstrates how to host a static website and integrate it with a C
     - **Bucket Name**: `cicdwebsite`
     - **ACL**: Disabled
     - **Block Public Access**: Off
+
 2. Click **Create Bucket**.
+
+[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/S3.png)   
 
 ---
 
@@ -70,6 +73,9 @@ This project demonstrates how to host a static website and integrate it with a C
     - Enable the **Extract file before deploy** option.
 5. Click **Create Pipeline**.
 
+[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/codepipeline.png)  
+[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/Source.png)  
+[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/deploy.png)  
 ---
 
 ## Step 4: Set Up Amazon CloudFront
@@ -84,6 +90,16 @@ This project demonstrates how to host a static website and integrate it with a C
     - **WAF**: Disabled.
     - **Supported HTTP Versions**: HTTP/2, HTTP/3.
 3. Complete the setup and note the distribution domain name (e.g., `https://d1nipgr1fpacfq.cloudfront.net/index.html`).
+[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/CF.png)
+[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/OAI.png)
+
+---
+
+### Access Deployed Website
+
+You can now access your deployed website at the following URL:  
+[https://d1nipgr1fpacfq.cloudfront.net/index.html](https://d1nipgr1fpacfq.cloudfront.net/index.html)
+[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/website.png)
 
 ---
 
@@ -91,7 +107,4 @@ This project demonstrates how to host a static website and integrate it with a C
 
 This setup enables automated and efficient deployment of a static website using AWS services. By integrating GitHub with AWS CodePipeline, updates are automatically pushed to the live environment. **CloudFront** ensures fast and secure delivery of the content, providing a scalable and optimized hosting solution.
 
-### Access Deployed Website
 
-You can now access your deployed website at the following URL:  
-[https://d1nipgr1fpacfq.cloudfront.net/index.html](https://d1nipgr1fpacfq.cloudfront.net/index.html)
