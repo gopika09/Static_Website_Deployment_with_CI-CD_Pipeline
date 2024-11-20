@@ -57,7 +57,7 @@ This project demonstrates how to host a static website and integrate it with a C
 ## Step 3: Configure AWS CodePipeline
 
 1. Open the **CodePipeline Console** and create a new pipeline:
-    - **Pipeline Name**: Choose an appropriate name.
+    - **Pipeline Name**: `cicdpipeline`.
     - **Execution Mode**: Supersede.
     - **Service Role**: Create a new role.
 2. Configure the **Source Stage**:
@@ -91,7 +91,7 @@ This project demonstrates how to host a static website and integrate it with a C
 
 This setup enables automated and efficient deployment of a static website using AWS services. By integrating GitHub with AWS CodePipeline, updates are automatically pushed to the live environment. **CloudFront** ensures fast and secure delivery of the content, providing a scalable and optimized hosting solution.
 
-### Access Your Deployed Website
+### Access Deployed Website
 
 You can now access your deployed website at the following URL:  
 [https://d1nipgr1fpacfq.cloudfront.net/index.html](https://d1nipgr1fpacfq.cloudfront.net/index.html)
