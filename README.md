@@ -4,7 +4,7 @@
 
 This project demonstrates how to host a static website and integrate it with a Continuous Integration/Continuous Deployment (CI/CD) pipeline. The process involves using **GitHub**, **Amazon S3**, **AWS CodePipeline**, and **Amazon CloudFront**. The pipeline automatically deploys updates from the GitHub repository to an S3 bucket, enabling seamless updates to the website.
 
---
+
 
 ## **Features**
 
@@ -14,7 +14,7 @@ This project demonstrates how to host a static website and integrate it with a C
 - **Scalable Infrastructure:** Amazon S3 and CloudFront enable scalability for high traffic.
 - **Optimized Delivery:** CloudFront ensures low latency by caching content across edge locations.
 
---
+
 
 ## **Tools and Technologies**
 
@@ -24,7 +24,7 @@ This project demonstrates how to host a static website and integrate it with a C
 - **Amazon CloudFront:** Content Delivery Network (CDN) for fast and secure delivery of website content.
 - **HTML:** Used to create the static webpage (`index.html`).
 
---
+
 
 ## **Steps to Deploy**  
 
@@ -55,7 +55,7 @@ This project demonstrates how to host a static website and integrate it with a C
 
 [!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/S3.png)   
 
---
+
 
 ## Step 3: Configure AWS CodePipeline
 
@@ -77,7 +77,7 @@ This project demonstrates how to host a static website and integrate it with a C
 [!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/Source.png)  
 [!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/deploy.png)  
 
---
+
 
 ## Step 4: Set Up Amazon CloudFront
 
@@ -94,7 +94,7 @@ This project demonstrates how to host a static website and integrate it with a C
 [!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/CF.png)
 [!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/OAI.png)
 
---
+
 
 ### Access Deployed Website
 
@@ -102,7 +102,7 @@ You can now access your deployed website at the following URL:
 [https://d1nipgr1fpacfq.cloudfront.net/index.html](https://d1nipgr1fpacfq.cloudfront.net/index.html)
 [!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/website.png)
 
---
+
 
 ## Conclusion
 
