@@ -5,6 +5,7 @@ This project demonstrates how to host a static website and integrate it with a C
 
 ## **Overview**
 
+![diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/overview.png)   
 
 ## **Features**
 
