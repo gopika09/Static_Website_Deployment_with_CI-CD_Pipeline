@@ -1,9 +1,9 @@
 # Static_Website_Deployment_with_CI_CD_Pipeline
 
-## **Introduction**
 
 This project demonstrates how to host a static website and integrate it with a Continuous Integration/Continuous Deployment (CI/CD) pipeline. The process involves using **GitHub**, **Amazon S3**, **AWS CodePipeline**, and **Amazon CloudFront**. The pipeline automatically deploys updates from the GitHub repository to an S3 bucket, enabling seamless updates to the website.
 
+## **Overview**
 
 
 ## **Features**
@@ -53,7 +53,7 @@ This project demonstrates how to host a static website and integrate it with a C
 
 2. Click **Create Bucket**.
 
-[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/S3.png)   
+![diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/S3.png)   
 
 
 
@@ -73,9 +73,9 @@ This project demonstrates how to host a static website and integrate it with a C
     - Enable the **Extract file before deploy** option.
 5. Click **Create Pipeline**.
 
-[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/codepipeline.png)  
-[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/Source.png)  
-[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/deploy.png)  
+![diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/codepipeline.png)  
+![diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/Source.png)  
+![diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/deploy.png)  
 
 
 
@@ -91,8 +91,8 @@ This project demonstrates how to host a static website and integrate it with a C
     - **WAF**: Disabled.
     - **Supported HTTP Versions**: HTTP/2, HTTP/3.
 3. Complete the setup and note the distribution domain name (e.g., `https://d1nipgr1fpacfq.cloudfront.net/index.html`).
-[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/CF.png)
-[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/OAI.png)
+![diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/CF.png)
+![diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/OAI.png)
 
 
 
@@ -100,7 +100,7 @@ This project demonstrates how to host a static website and integrate it with a C
 
 You can now access your deployed website at the following URL:  
 [https://d1nipgr1fpacfq.cloudfront.net/index.html](https://d1nipgr1fpacfq.cloudfront.net/index.html)
-[!diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/website.png)
+![diagram](https://github.com/gopika09/Static_Website_Deployment_with_CI_CD_Pipeline/blob/main/website.png)
 
 
 
